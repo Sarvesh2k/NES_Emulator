@@ -3,8 +3,8 @@
 NES(Nintendo Entertainment System) emulator written in C++.
 
 <div align="center">
-<img src="https://github.com/Sarvesh2k/NES_Emulator/blob/master/pic1.JPG" width="50">
-<img src="https://github.com/Sarvesh2k/NES_Emulator/blob/master/pic2.JPG" width="50">
+<img src="https://github.com/Sarvesh2k/NES_Emulator/blob/master/pic1.JPG" width="80">
+<img src="https://github.com/Sarvesh2k/NES_Emulator/blob/master/pic2.JPG" width="80">
 </div>
 
 The Nintendo Entertainment System (NES) is an 8-bit third-generation home video game console produced by Nintendo. Nintendo first released it in Japan as the Family Computer (FC), commonly known as the Famicom, in 1983. The NES, a redesigned version, made its debut in test markets in the United States in October 1985, before becoming widely available in the rest of North America and other countries during the following years.
