@@ -1,10 +1,15 @@
 # NES Emulator
 
-NES(Nintendo Entertainment System) emulator written in C++. This project was intended to learn about the 
+NES(Nintendo Entertainment System) emulator written in C++.
 
 <div align="center">
-<img src="demo.gif">
+<img src="pic1.jpg">
+<img src="pic2.jpg">
 </div>
+
+The Nintendo Entertainment System (NES) is an 8-bit third-generation home video game console produced by Nintendo. Nintendo first released it in Japan as the Family Computer (FC), commonly known as the Famicom, in 1983. The NES, a redesigned version, made its debut in test markets in the United States in October 1985, before becoming widely available in the rest of North America and other countries during the following years.
+
+The purpose of this project is to gain profound knowledge on the software and hardware architecture behind this system, and understand the interplay between them. Nevertheless, it was an amazing learning experience.
 
 ## How to Build
 
@@ -106,10 +111,13 @@ the NES cartidges released in the US have only been used for testing.
 This project was developed to obtain a deeper understanding of the underlying architecture behind the NES consoles, and hence was developed for the sole purpose of learning.
 
 Some points that I noted that needed improvement are as follows:
-- Gameplay optimization (testing brought about 60-70 FPS and 30-40 FPS in memory intensive games)
+- Gameplay optimization (testing brought about 50-60 FPS and 30-40 FPS in memory intensive games)
 - External controller support (only provided support for keyboard)
+- More Mapper support (would be a fun challenge ;))
 
 ## References
 
 - The [NesDev Wiki](https://wiki.nesdev.com/w/index.php?title=Nesdev_Wiki) - The Holy Grail of the NES Console Documentation. Definitely a go-to source.
-- javidx9 (One Line Coder)'s [Bulding the NES from Scratch](https://www.youtube.com/playlist?list=PLrOv9FMX8xJHqMvSGB_9G9nZZ_4IgteYf) Playlist - Provides an amazing in-depth practical implementation of the NES Emulator. Perfect for concept building
+- javidx9 (One Line Coder)'s [Bulding the NES from Scratch](https://www.youtube.com/playlist?list=PLrOv9FMX8xJHqMvSGB_9G9nZZ_4IgteYf) Playlist - Provides an amazing in-depth practical implementation of the NES Emulator. Perfect for concept building.
+- [2A03 Technical reference](https://www.nesdev.com/2A03%20technical%20reference.txt) - Kudos to the hundreds of tech enthusiasts to bring up this beautiful manual on the NES CPU.
+- The [6502 Datasheet](http://archive.6502.org/datasheets/rockwell_r650x_r651x.pdf) - Although the CPU used in the NES was the Ricoh 2A03, it was based on the MOS Technology 6502 Core.
