@@ -2,7 +2,7 @@
 
 NES(Nintendo Entertainment System) emulator written in C++.
 
-<div align="center">
+<div align="left">
 <img src="https://github.com/Sarvesh2k/NES_Emulator/blob/master/pic1.JPG">
 <img src="https://github.com/Sarvesh2k/NES_Emulator/blob/master/pic2.JPG">
 </div>
