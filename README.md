@@ -113,7 +113,7 @@ This project was developed to obtain a deeper understanding of the underlying ar
 Some points that I noted that needed improvement are as follows:
 - Gameplay optimization (testing brought about 50-60 FPS and 30-40 FPS in memory intensive games)
 - External controller support (only provided support for keyboard)
-- More Mapper support (would be a fun challenge ;))
+- More Mapper support (would be a fun challenge!)
 
 ## References
 
