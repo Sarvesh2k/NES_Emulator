@@ -24,6 +24,7 @@ Before building this project the following must be installed :
 
 To keep this project platform independent CMake is used to generate the build files.
 To install cmake in Windows, I used [chocolatey](https://chocolatey.org/) which is a package manager.
+(NOTE: Use Windows Powershell with Administrator priveleges for proper installation, else it will not work.)
 
 The following definitions can be used to locate the dependencies if they are not found automatically:
 - CMAKE\_INCLUDE\_PATH
@@ -36,9 +37,10 @@ I used [vcpkg](https://github.com/microsoft/vcpkg) to install the dependencies o
 After setting up vcpkg, the following code snippets illustrate how to install the required dependencies.
 
 ```
-vcpkg install glfw3:x64-windows
-vcpkg install glew:x64-windows
-vcpkg install portaudio:x64-windows
+(Using windows powershell)
+.\vcpkg install glfw3:x64-windows
+.\vcpkg install glew:x64-windows
+.\vcpkg install portaudio:x64-windows
 ```
 
 Once done, create a folder where you would want the repository to be cloned and perform the following commands to build the emulator.
