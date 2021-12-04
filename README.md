@@ -112,7 +112,7 @@ the NES cartidges released in the US have only been used for testing.
 
 This project was developed to obtain a deeper understanding of the underlying architecture behind the NES consoles, and hence was developed for the sole purpose of learning.
 
-Some points that I noted that needed improvement are as follows:
+Some points that I noted that needed improvement are listed below:
 - Gameplay optimization (testing brought about 50-60 FPS and 30-40 FPS in memory intensive games)
 - External controller support (only provided support for keyboard)
 - More Mapper support (would be a fun challenge!)
